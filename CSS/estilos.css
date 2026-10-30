@@ -1,0 +1,29 @@
+.menu{
+    margin-bottom: 8px;
+}
+
+.contenedor-titulo{
+    text-align: center;
+}
+
+.titulo{
+    display: inline-block;
+    border:8px solid rgb(129, 76, 45);
+    color:rgb(0, 119, 255) ;
+}
+
+.subtitulo{
+    color:rgb(0, 119, 255) ;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.subtitulo2{
+    color:rgb(0, 119, 255) ;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.fondo{
+
+}

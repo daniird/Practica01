@@ -36,7 +36,28 @@
 
 }
 
+.lista {
+    list-style: none;
+    padding-left: 1px;
+}
+
+.lista li {
+    list-style-type: none ;
+}
+
 .lista li:not(:last-child) {
-    border-bottom: 1px rgb(0, 119, 255);
+    border-bottom: 2px solid rgb(90, 154, 226);
+    padding: 8px;
+}
+
+.lista2 {
+    list-style: decimal;
+}
+
+.lista2 li {
+    list-style-type: decimal ;
+}
+
+.lista2 li:not(:last-child) {
     padding: 8px;
 }

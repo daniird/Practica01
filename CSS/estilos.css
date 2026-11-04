@@ -61,3 +61,26 @@
 .lista2 li:not(:last-child) {
     padding: 8px;
 }
+
+.lista3 {
+    list-style: decimal;
+    font-size: large;
+}
+
+.lista3 li {
+    list-style-type: decimal;
+    font-size: large;
+}
+
+.lista3 li:not(:last-child) {
+    padding: 8px;
+    font-size: large;
+}
+
+.imagencarrusel{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    object-fit: cover;
+    
+}

@@ -33,7 +33,7 @@
     text-align: right;
 }
 .fondo{
-
+    background-image: url(./imagenes/fondo1)    
 }
 
 .lista {
@@ -82,5 +82,7 @@
     height: 400px;
     margin: auto;
     object-fit: cover;
-    
+    display: block;
+
+
 }

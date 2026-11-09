@@ -33,7 +33,7 @@
     text-align: right;
 }
 .fondo{
-    background-image: url(./imagenes/fondo1)    
+    background-image: url(./Imagenes_css/fondo1.jpg)    
 }
 
 .lista {
@@ -83,6 +83,47 @@
     margin: auto;
     object-fit: cover;
     display: block;
+}
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 100%;
+    }
 }
